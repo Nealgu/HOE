@@ -112,7 +112,7 @@
     <text class="tiny" x="130" y="84" text-anchor="middle">按 Cost Type 记录</text>
   </g>
 
-  <g transform="translate(1270 730)">
+  <g transform="translate(1500 700)">
     <rect class="node-red" width="260" height="100" rx="8"/>
     <text class="label" x="130" y="34" text-anchor="middle">Special Request / SP</text>
     <text class="small" x="130" y="62" text-anchor="middle">线下邮件审批</text>
@@ -144,7 +144,6 @@
   </g>
 
   <path class="arrow" d="M1270 640 H980 V756"/>
-  <path class="arrow-muted" d="M1270 780 H1130 V842 H1064"/>
   <path class="arrow" d="M780 842 H678"/>
   <path class="arrow" d="M1060 842 H1152"/>
   <text class="arrow-label" x="710" y="828" text-anchor="middle">Hold</text>
@@ -205,7 +204,7 @@
     <text class="small" x="150" y="62" text-anchor="middle">CCM / 质保 / 售后</text>
   </g>
 
-  <path class="arrow-muted" d="M1585 1060 V1164 H808"/>
+  <path class="arrow-muted" d="M1585 1060 V1090 H675 V1112"/>
   <path class="arrow" d="M800 1164 H882"/>
   <path class="arrow" d="M1110 1164 H1192"/>
 

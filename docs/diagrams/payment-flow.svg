@@ -140,12 +140,6 @@
 
   <path class="arrow-soft" d="M1480 315 V390 H330 V462"/>
   <path class="arrow-soft" d="M1480 570 V645 H330 V717"/>
-  <text class="arrow-label" x="632" y="250" text-anchor="middle">Submit</text>
-  <text class="arrow-label" x="936" y="250" text-anchor="middle">Approve</text>
-  <text class="arrow-label" x="1220" y="250" text-anchor="middle">Post</text>
-  <text class="arrow-label" x="1220" y="505" text-anchor="middle">Post</text>
-  <text class="arrow-label" x="1220" y="760" text-anchor="middle">Post</text>
-
   <g transform="translate(210 930)">
     <rect class="note" width="1260" height="62" rx="8"/>
     <text class="small" x="22" y="27">控制点：Payment 1、Payment 2、Payment 3 不是等到最后统一 Post；每一笔付款都需要单独 Finance Approve，并在审批通过后单独 Post。</text>
