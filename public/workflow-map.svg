@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="170" viewBox="0 0 1180 170" role="img" aria-labelledby="title desc">
+  <title id="title">Installation settlement workflow</title>
+  <desc id="desc">Customer SO, vendor budget, application form, acceptance, payment, finance approve and post.</desc>
+  <rect width="1180" height="170" fill="#f8fafc"/>
+  <g fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5">
+    <rect x="28" y="40" width="150" height="88" rx="8"/>
+    <rect x="218" y="40" width="150" height="88" rx="8"/>
+    <rect x="408" y="40" width="150" height="88" rx="8"/>
+    <rect x="598" y="40" width="150" height="88" rx="8"/>
+    <rect x="788" y="40" width="150" height="88" rx="8"/>
+    <rect x="978" y="40" width="150" height="88" rx="8"/>
+  </g>
+  <g stroke="#2563eb" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M178 84h34"/>
+    <path d="M204 76l9 8-9 8"/>
+    <path d="M368 84h34"/>
+    <path d="M394 76l9 8-9 8"/>
+    <path d="M558 84h34"/>
+    <path d="M584 76l9 8-9 8"/>
+    <path d="M748 84h34"/>
+    <path d="M774 76l9 8-9 8"/>
+    <path d="M938 84h34"/>
+    <path d="M964 76l9 8-9 8"/>
+  </g>
+  <g font-family="Arial, Microsoft YaHei, sans-serif" text-anchor="middle">
+    <text x="103" y="75" fill="#1c2430" font-size="16" font-weight="700">Customer SO</text>
+    <text x="103" y="101" fill="#64748b" font-size="13">Revenue 80,000</text>
+    <text x="293" y="75" fill="#1c2430" font-size="16" font-weight="700">Vendor Budget</text>
+    <text x="293" y="101" fill="#64748b" font-size="13">30% / 30% / 40%</text>
+    <text x="483" y="75" fill="#1c2430" font-size="16" font-weight="700">Application Form</text>
+    <text x="483" y="101" fill="#64748b" font-size="13">Std + Extra Cost</text>
+    <text x="673" y="75" fill="#1c2430" font-size="16" font-weight="700">Acceptance</text>
+    <text x="673" y="101" fill="#64748b" font-size="13">Qty Match</text>
+    <text x="863" y="75" fill="#1c2430" font-size="16" font-weight="700">Payment</text>
+    <text x="863" y="101" fill="#64748b" font-size="13">50% / 90% / 100%</text>
+    <text x="1053" y="75" fill="#1c2430" font-size="16" font-weight="700">Finance</text>
+    <text x="1053" y="101" fill="#64748b" font-size="13">Approve + Post</text>
+  </g>
+  <g>
+    <circle cx="483" cy="136" r="5" fill="#15803d"/>
+    <text x="497" y="141" fill="#475569" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">Margin excludes special request</text>
+    <circle cx="700" cy="136" r="5" fill="#b7791f"/>
+    <text x="714" y="141" fill="#475569" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">Acceptance can add extra cost</text>
+  </g>
+</svg>

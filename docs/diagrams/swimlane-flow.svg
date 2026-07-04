@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="1380" viewBox="0 0 1900 1380" role="img" aria-labelledby="title desc">
+  <title id="title">安装分包结算泳道图</title>
+  <desc id="desc">Sales、Operation、Vendor、Finance 四个角色在安装分包结算流程中的责任划分。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#2563eb"/>
+    </marker>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#0f172a" flood-opacity="0.12"/>
+    </filter>
+    <style>
+      .bg { fill: #f6f7f9; }
+      .title { font: 700 34px Arial, "Microsoft YaHei", sans-serif; fill: #1c2430; }
+      .subtitle { font: 400 18px Arial, "Microsoft YaHei", sans-serif; fill: #667085; }
+      .lane-title { font: 700 20px Arial, "Microsoft YaHei", sans-serif; fill: #1c2430; }
+      .lane-sub { font: 400 14px Arial, "Microsoft YaHei", sans-serif; fill: #64748b; }
+      .lane-1 { fill: #eef5ff; }
+      .lane-2 { fill: #edf8f0; }
+      .lane-3 { fill: #fff7ed; }
+      .lane-4 { fill: #f7f3ff; }
+      .lane-line { stroke: #d7dde7; stroke-width: 1.4; }
+      .node { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.5; filter: url(#shadow); }
+      .node-blue { fill: #ffffff; stroke: #93c5fd; stroke-width: 1.7; filter: url(#shadow); }
+      .node-green { fill: #ffffff; stroke: #86efac; stroke-width: 1.7; filter: url(#shadow); }
+      .node-amber { fill: #ffffff; stroke: #fdba74; stroke-width: 1.7; filter: url(#shadow); }
+      .node-purple { fill: #ffffff; stroke: #c4b5fd; stroke-width: 1.7; filter: url(#shadow); }
+      .decision { fill: #ffffff; stroke: #94a3b8; stroke-width: 1.5; filter: url(#shadow); }
+      .label { font: 700 17px Arial, "Microsoft YaHei", sans-serif; fill: #1c2430; }
+      .small { font: 400 14px Arial, "Microsoft YaHei", sans-serif; fill: #64748b; }
+      .arrow { fill: none; stroke: #2563eb; stroke-width: 2.4; marker-end: url(#arrow); }
+      .arrow-soft { fill: none; stroke: #94a3b8; stroke-width: 2; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1900" height="1380"/>
+  <text class="title" x="70" y="70">安装分包结算泳道图</text>
+  <text class="subtitle" x="70" y="105">按角色展示从 SO 创建到财务过账、售后的完整在线流程。</text>
+
+  <rect class="lane-1" x="70" y="150" width="1760" height="255" rx="8"/>
+  <rect class="lane-2" x="70" y="405" width="1760" height="375" rx="8"/>
+  <rect class="lane-3" x="70" y="780" width="1760" height="250" rx="8"/>
+  <rect class="lane-4" x="70" y="1030" width="1760" height="245" rx="8"/>
+  <path class="lane-line" d="M250 150 V1275"/>
+  <path class="lane-line" d="M70 405 H1830 M70 780 H1830 M70 1030 H1830"/>
+
+  <text class="lane-title" x="160" y="250" text-anchor="middle">Sales</text>
+  <text class="lane-sub" x="160" y="278" text-anchor="middle">销售</text>
+  <text class="lane-title" x="160" y="560" text-anchor="middle">Operation</text>
+  <text class="lane-sub" x="160" y="588" text-anchor="middle">派工 / 结算</text>
+  <text class="lane-title" x="160" y="895" text-anchor="middle">Vendor</text>
+  <text class="lane-sub" x="160" y="923" text-anchor="middle">分包商</text>
+  <text class="lane-title" x="160" y="1150" text-anchor="middle">Finance</text>
+  <text class="lane-sub" x="160" y="1178" text-anchor="middle">财务</text>
+
+  <g transform="translate(300 210)">
+    <rect class="node-blue" width="220" height="100" rx="8"/>
+    <text class="label" x="110" y="36" text-anchor="middle">创建 SO</text>
+    <text class="small" x="110" y="64" text-anchor="middle">客户合同与收入</text>
+  </g>
+
+  <g transform="translate(590 210)">
+    <rect class="node-blue" width="240" height="100" rx="8"/>
+    <text class="label" x="120" y="36" text-anchor="middle">维护门信息</text>
+    <text class="small" x="120" y="64" text-anchor="middle">门型 / 数量 / 面积</text>
+  </g>
+
+  <g transform="translate(900 210)">
+    <rect class="node-blue" width="250" height="100" rx="8"/>
+    <text class="label" x="125" y="36" text-anchor="middle">确认安装收入</text>
+    <text class="small" x="125" y="64" text-anchor="middle">Installation Revenue</text>
+  </g>
+
+  <g transform="translate(300 485)">
+    <rect class="node-green" width="250" height="100" rx="8"/>
+    <text class="label" x="125" y="34" text-anchor="middle">拆分分包预算</text>
+    <text class="small" x="125" y="62" text-anchor="middle">30% / 30% / 40%</text>
+  </g>
+
+  <g transform="translate(620 485)">
+    <rect class="node-green" width="260" height="100" rx="8"/>
+    <text class="label" x="130" y="34" text-anchor="middle">创建派工申请</text>
+    <text class="small" x="130" y="62" text-anchor="middle">Application Form</text>
+  </g>
+
+  <g transform="translate(960 465)">
+    <rect class="node-green" width="270" height="125" rx="8"/>
+    <text class="label" x="135" y="34" text-anchor="middle">计算安装成本</text>
+    <text class="small" x="135" y="62" text-anchor="middle">Price List</text>
+    <text class="small" x="135" y="88" text-anchor="middle">Standard + Extra Cost</text>
+  </g>
+
+  <g transform="translate(1320 455)">
+    <polygon class="decision" points="125,0 250,75 125,150 0,75"/>
+    <text class="label" x="125" y="62" text-anchor="middle">Margin Check</text>
+    <text class="small" x="125" y="90" text-anchor="middle">30% 是否通过</text>
+  </g>
+
+  <g transform="translate(1045 650)">
+    <rect class="node-green" width="280" height="88" rx="8"/>
+    <text class="label" x="140" y="34" text-anchor="middle">创建验收单</text>
+    <text class="small" x="140" y="62" text-anchor="middle">数量匹配 + 二次 Extra Cost</text>
+  </g>
+
+  <g transform="translate(1465 650)">
+    <rect class="node-green" width="250" height="88" rx="8"/>
+    <text class="label" x="125" y="34" text-anchor="middle">提交付款申请</text>
+    <text class="small" x="125" y="62" text-anchor="middle">Payment 1 / 2 / 3</text>
+  </g>
+
+  <g transform="translate(620 845)">
+    <rect class="node-amber" width="260" height="95" rx="8"/>
+    <text class="label" x="130" y="34" text-anchor="middle">接收派工</text>
+    <text class="small" x="130" y="62" text-anchor="middle">安排安装人员</text>
+  </g>
+
+  <g transform="translate(960 845)">
+    <rect class="node-amber" width="260" height="95" rx="8"/>
+    <text class="label" x="130" y="34" text-anchor="middle">完成安装</text>
+    <text class="small" x="130" y="62" text-anchor="middle">提供验收支持</text>
+  </g>
+
+  <g transform="translate(1340 845)">
+    <rect class="node-amber" width="260" height="95" rx="8"/>
+    <text class="label" x="130" y="34" text-anchor="middle">收款</text>
+    <text class="small" x="130" y="62" text-anchor="middle">按审批后付款</text>
+  </g>
+
+  <g transform="translate(430 1095)">
+    <rect class="node-purple" width="250" height="100" rx="8"/>
+    <text class="label" x="125" y="36" text-anchor="middle">审核 Payment 1</text>
+    <text class="small" x="125" y="64" text-anchor="middle">首款审批</text>
+  </g>
+
+  <g transform="translate(790 1095)">
+    <rect class="node-purple" width="260" height="100" rx="8"/>
+    <text class="label" x="130" y="36" text-anchor="middle">审核 Payment 2</text>
+    <text class="small" x="130" y="64" text-anchor="middle">验收后累计到 90%</text>
+  </g>
+
+  <g transform="translate(1150 1095)">
+    <rect class="node-purple" width="260" height="100" rx="8"/>
+    <text class="label" x="130" y="36" text-anchor="middle">审核 Payment 3</text>
+    <text class="small" x="130" y="64" text-anchor="middle">最终尾款</text>
+  </g>
+
+  <g transform="translate(1500 1095)">
+    <rect class="node-purple" width="220" height="100" rx="8"/>
+    <text class="label" x="110" y="36" text-anchor="middle">Post</text>
+    <text class="small" x="110" y="64" text-anchor="middle">财务过账</text>
+  </g>
+
+  <path class="arrow" d="M520 260 H582"/>
+  <path class="arrow" d="M830 260 H892"/>
+  <path class="arrow" d="M1025 310 V475 H552"/>
+  <path class="arrow" d="M550 535 H612"/>
+  <path class="arrow" d="M880 535 H952"/>
+  <path class="arrow" d="M1230 528 H1313"/>
+  <path class="arrow-soft" d="M750 585 V837"/>
+  <path class="arrow-soft" d="M880 892 H952"/>
+  <path class="arrow-soft" d="M1090 940 V642"/>
+  <path class="arrow" d="M1445 605 V642 H1185"/>
+  <path class="arrow" d="M1325 694 H1457"/>
+  <path class="arrow-soft" d="M1590 738 V1087 H555"/>
+  <path class="arrow" d="M680 1145 H782"/>
+  <path class="arrow" d="M1050 1145 H1142"/>
+  <path class="arrow" d="M1410 1145 H1492"/>
+  <path class="arrow-soft" d="M1610 1195 V985 H1470"/>
+
+  <g transform="translate(300 1260)">
+    <text class="small" x="0" y="0">关键控制点：特殊申请 SP 可线下邮件审批并排除毛利检查；派工单和验收单数量必须对应；付款必须经过 Finance Approve 后 Post。</text>
+  </g>
+</svg>

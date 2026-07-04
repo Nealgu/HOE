@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" role="img" aria-labelledby="title desc">
+  <title id="title">安装分包结算主业务流程图</title>
+  <desc id="desc">从客户销售合同到分包预算、派工申请、成本计算、毛利检查、付款、财务审批和过账的主流程。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#2563eb"/>
+    </marker>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.12"/>
+    </filter>
+    <style>
+      .bg { fill: #f6f7f9; }
+      .title { font: 700 34px Arial, "Microsoft YaHei", sans-serif; fill: #1c2430; }
+      .subtitle { font: 400 18px Arial, "Microsoft YaHei", sans-serif; fill: #667085; }
+      .section { font: 700 18px Arial, "Microsoft YaHei", sans-serif; fill: #2563eb; }
+      .node { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.5; filter: url(#shadow); }
+      .node-soft { fill: #eef5ff; stroke: #bfdbfe; stroke-width: 1.5; filter: url(#shadow); }
+      .node-green { fill: #edf8f0; stroke: #bbf7d0; stroke-width: 1.5; filter: url(#shadow); }
+      .node-amber { fill: #fff7ed; stroke: #fed7aa; stroke-width: 1.5; filter: url(#shadow); }
+      .node-red { fill: #fff1f3; stroke: #fecdd3; stroke-width: 1.5; filter: url(#shadow); }
+      .diamond { fill: #ffffff; stroke: #94a3b8; stroke-width: 1.5; filter: url(#shadow); }
+      .label { font: 700 19px Arial, "Microsoft YaHei", sans-serif; fill: #1c2430; }
+      .small { font: 400 15px Arial, "Microsoft YaHei", sans-serif; fill: #64748b; }
+      .tiny { font: 400 13px Arial, "Microsoft YaHei", sans-serif; fill: #64748b; }
+      .arrow { fill: none; stroke: #2563eb; stroke-width: 2.5; marker-end: url(#arrow); }
+      .arrow-muted { fill: none; stroke: #94a3b8; stroke-width: 2; marker-end: url(#arrow); }
+      .note { fill: #ffffff; stroke: #d7dde7; stroke-width: 1.4; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1800" height="1250"/>
+  <text class="title" x="70" y="70">安装分包结算主业务流程图</text>
+  <text class="subtitle" x="70" y="105">Customer SO -> Vendor Budget -> Application Form -> Margin Check -> Payment -> Finance Post</text>
+
+  <text class="section" x="70" y="160">1. 收入与预算</text>
+  <text class="section" x="70" y="430">2. 成本计算</text>
+  <text class="section" x="70" y="720">3. 验收与付款</text>
+  <text class="section" x="70" y="1040">4. 财务与售后</text>
+
+  <g transform="translate(70 185)">
+    <rect class="node-soft" width="230" height="100" rx="8"/>
+    <text class="label" x="115" y="38" text-anchor="middle">Customer / 客户</text>
+    <text class="small" x="115" y="66" text-anchor="middle">销售合同与客户信息</text>
+  </g>
+
+  <g transform="translate(360 185)">
+    <rect class="node-soft" width="230" height="100" rx="8"/>
+    <text class="label" x="115" y="34" text-anchor="middle">SO / 销售订单</text>
+    <text class="small" x="115" y="62" text-anchor="middle">门型 / 数量 / 面积</text>
+    <text class="tiny" x="115" y="84" text-anchor="middle">合同号与 SO 号</text>
+  </g>
+
+  <g transform="translate(650 185)">
+    <rect class="node-soft" width="250" height="100" rx="8"/>
+    <text class="label" x="125" y="34" text-anchor="middle">Installation Revenue</text>
+    <text class="small" x="125" y="62" text-anchor="middle">安装收入，例如 80,000</text>
+  </g>
+
+  <g transform="translate(980 160)">
+    <rect class="node" width="360" height="150" rx="8"/>
+    <text class="label" x="180" y="35" text-anchor="middle">Vendor Budget Split</text>
+    <text class="small" x="180" y="68" text-anchor="middle">Vendor A 30% = 24,000</text>
+    <text class="small" x="180" y="95" text-anchor="middle">Vendor B 30% = 24,000</text>
+    <text class="small" x="180" y="122" text-anchor="middle">Vendor C 40% = 32,000</text>
+  </g>
+
+  <g transform="translate(1440 185)">
+    <rect class="node" width="260" height="100" rx="8"/>
+    <text class="label" x="130" y="38" text-anchor="middle">Application Form</text>
+    <text class="small" x="130" y="66" text-anchor="middle">派工 / 出工申请表</text>
+  </g>
+
+  <path class="arrow" d="M300 235 H352"/>
+  <path class="arrow" d="M590 235 H642"/>
+  <path class="arrow" d="M900 235 H972"/>
+  <path class="arrow" d="M1340 235 H1432"/>
+
+  <g transform="translate(210 470)">
+    <rect class="node" width="260" height="120" rx="8"/>
+    <text class="label" x="130" y="34" text-anchor="middle">读取 SO 信息</text>
+    <text class="small" x="130" y="64" text-anchor="middle">门型 / 数量 / 面积</text>
+    <text class="tiny" x="130" y="91" text-anchor="middle">从销售订单和合同带入</text>
+  </g>
+
+  <g transform="translate(540 470)">
+    <rect class="node" width="300" height="120" rx="8"/>
+    <text class="label" x="150" y="32" text-anchor="middle">Price List</text>
+    <text class="small" x="150" y="60" text-anchor="middle">最低价 / 最高价 / 有效期</text>
+    <text class="tiny" x="150" y="88" text-anchor="middle">整门计价或面积 x 单价</text>
+  </g>
+
+  <g transform="translate(920 470)">
+    <polygon class="diamond" points="115,0 230,70 115,140 0,70"/>
+    <text class="label" x="115" y="60" text-anchor="middle">价格判断</text>
+    <text class="small" x="115" y="88" text-anchor="middle">Min / Actual / Max</text>
+  </g>
+
+  <g transform="translate(1270 450)">
+    <rect class="node-green" width="260" height="100" rx="8"/>
+    <text class="label" x="130" y="36" text-anchor="middle">Standard Installation</text>
+    <text class="small" x="130" y="66" text-anchor="middle">标准安装费</text>
+  </g>
+
+  <g transform="translate(1270 590)">
+    <rect class="node-amber" width="260" height="100" rx="8"/>
+    <text class="label" x="130" y="34" text-anchor="middle">Extra Cost</text>
+    <text class="small" x="130" y="62" text-anchor="middle">水电 / 差旅 / 其他</text>
+    <text class="tiny" x="130" y="84" text-anchor="middle">按 Cost Type 记录</text>
+  </g>
+
+  <g transform="translate(1270 730)">
+    <rect class="node-red" width="260" height="100" rx="8"/>
+    <text class="label" x="130" y="34" text-anchor="middle">Special Request / SP</text>
+    <text class="small" x="130" y="62" text-anchor="middle">线下邮件审批</text>
+    <text class="tiny" x="130" y="84" text-anchor="middle">不参与 Margin Check</text>
+  </g>
+
+  <path class="arrow-muted" d="M1570 285 V360 H340 V462"/>
+  <path class="arrow" d="M470 530 H532"/>
+  <path class="arrow" d="M840 530 H916"/>
+  <path class="arrow" d="M1150 540 H1262"/>
+  <path class="arrow" d="M1400 550 V582"/>
+
+  <g transform="translate(780 760)">
+    <polygon class="diamond" points="140,0 280,82 140,164 0,82"/>
+    <text class="label" x="140" y="70" text-anchor="middle">Margin Check</text>
+    <text class="small" x="140" y="98" text-anchor="middle">是否满足 30%</text>
+  </g>
+
+  <g transform="translate(430 790)">
+    <rect class="node-red" width="240" height="104" rx="8"/>
+    <text class="label" x="120" y="38" text-anchor="middle">Hold / 调整</text>
+    <text class="small" x="120" y="68" text-anchor="middle">超预算或毛利不足</text>
+  </g>
+
+  <g transform="translate(1160 790)">
+    <rect class="node-green" width="250" height="104" rx="8"/>
+    <text class="label" x="125" y="38" text-anchor="middle">进入付款流程</text>
+    <text class="small" x="125" y="68" text-anchor="middle">生成付款申请</text>
+  </g>
+
+  <path class="arrow" d="M1270 640 H980 V756"/>
+  <path class="arrow-muted" d="M1270 780 H1130 V842 H1064"/>
+  <path class="arrow" d="M780 842 H678"/>
+  <path class="arrow" d="M1060 842 H1152"/>
+
+  <g transform="translate(190 960)">
+    <rect class="node" width="250" height="100" rx="8"/>
+    <text class="label" x="125" y="36" text-anchor="middle">Payment 1</text>
+    <text class="small" x="125" y="66" text-anchor="middle">50% / 66.6% / 70%</text>
+  </g>
+
+  <g transform="translate(510 960)">
+    <rect class="node" width="250" height="100" rx="8"/>
+    <text class="label" x="125" y="36" text-anchor="middle">Acceptance Form</text>
+    <text class="small" x="125" y="66" text-anchor="middle">验收单</text>
+  </g>
+
+  <g transform="translate(830 930)">
+    <polygon class="diamond" points="115,0 230,70 115,140 0,70"/>
+    <text class="label" x="115" y="58" text-anchor="middle">数量校验</text>
+    <text class="small" x="115" y="88" text-anchor="middle">派工 = 验收</text>
+  </g>
+
+  <g transform="translate(1150 960)">
+    <rect class="node" width="250" height="100" rx="8"/>
+    <text class="label" x="125" y="36" text-anchor="middle">Payment 2</text>
+    <text class="small" x="125" y="66" text-anchor="middle">累计到 90%</text>
+  </g>
+
+  <g transform="translate(1460 960)">
+    <rect class="node" width="250" height="100" rx="8"/>
+    <text class="label" x="125" y="36" text-anchor="middle">Payment 3</text>
+    <text class="small" x="125" y="66" text-anchor="middle">尾款到 100%</text>
+  </g>
+
+  <path class="arrow-muted" d="M1285 894 V910 H315 V952"/>
+  <path class="arrow" d="M440 1010 H502"/>
+  <path class="arrow" d="M760 1010 H826"/>
+  <path class="arrow" d="M1060 1000 H1142"/>
+  <path class="arrow" d="M1400 1010 H1452"/>
+
+  <g transform="translate(550 1120)">
+    <rect class="node" width="250" height="88" rx="8"/>
+    <text class="label" x="125" y="34" text-anchor="middle">Finance Approve</text>
+    <text class="small" x="125" y="62" text-anchor="middle">财务审批</text>
+  </g>
+
+  <g transform="translate(890 1120)">
+    <rect class="node-green" width="220" height="88" rx="8"/>
+    <text class="label" x="110" y="34" text-anchor="middle">Post</text>
+    <text class="small" x="110" y="62" text-anchor="middle">财务过账</text>
+  </g>
+
+  <g transform="translate(1200 1120)">
+    <rect class="node" width="300" height="88" rx="8"/>
+    <text class="label" x="150" y="34" text-anchor="middle">Warranty / After Service</text>
+    <text class="small" x="150" y="62" text-anchor="middle">CCM / 质保 / 售后</text>
+  </g>
+
+  <path class="arrow-muted" d="M1585 1060 V1164 H808"/>
+  <path class="arrow" d="M800 1164 H882"/>
+  <path class="arrow" d="M1110 1164 H1192"/>
+
+  <g transform="translate(80 1120)">
+    <rect class="note" width="330" height="88" rx="8"/>
+    <text class="small" x="24" y="33">付款前置规则：</text>
+    <text class="tiny" x="24" y="58">1. 毛利检查通过或有特殊审批</text>
+    <text class="tiny" x="24" y="78">2. 派工单与验收单数量必须对应</text>
+  </g>
+</svg>

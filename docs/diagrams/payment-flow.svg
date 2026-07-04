@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="820" viewBox="0 0 1500 820" role="img" aria-labelledby="title desc">
+  <title id="title">付款节奏流程图</title>
+  <desc id="desc">Payment 1, Payment 2, Payment 3 的累计付款比例和计算方式。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#2563eb"/>
+    </marker>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.12"/>
+    </filter>
+    <style>
+      .bg { fill: #f6f7f9; }
+      .title { font: 700 34px Arial, "Microsoft YaHei", sans-serif; fill: #1c2430; }
+      .subtitle { font: 400 18px Arial, "Microsoft YaHei", sans-serif; fill: #667085; }
+      .node { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.5; filter: url(#shadow); }
+      .node-blue { fill: #eef5ff; stroke: #bfdbfe; stroke-width: 1.5; filter: url(#shadow); }
+      .node-green { fill: #edf8f0; stroke: #bbf7d0; stroke-width: 1.5; filter: url(#shadow); }
+      .node-amber { fill: #fff7ed; stroke: #fed7aa; stroke-width: 1.5; filter: url(#shadow); }
+      .label { font: 700 21px Arial, "Microsoft YaHei", sans-serif; fill: #1c2430; }
+      .small { font: 400 16px Arial, "Microsoft YaHei", sans-serif; fill: #64748b; }
+      .formula { font: 700 15px Arial, "Microsoft YaHei", sans-serif; fill: #1d6f5f; }
+      .arrow { fill: none; stroke: #2563eb; stroke-width: 2.5; marker-end: url(#arrow); }
+      .line { fill: none; stroke: #cbd5e1; stroke-width: 1.4; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1500" height="820"/>
+  <text class="title" x="70" y="70">付款节奏流程图</text>
+  <text class="subtitle" x="70" y="105">先付首款，验收后累计到 90%，最终尾款累计到 100%，每次付款均需财务审批。</text>
+
+  <g transform="translate(70 180)">
+    <rect class="node-blue" width="260" height="120" rx="8"/>
+    <text class="label" x="130" y="38" text-anchor="middle">Total Payable</text>
+    <text class="small" x="130" y="68" text-anchor="middle">Standard + Extra</text>
+    <text class="small" x="130" y="94" text-anchor="middle">+ Special Request</text>
+  </g>
+
+  <g transform="translate(410 180)">
+    <rect class="node" width="260" height="120" rx="8"/>
+    <text class="label" x="130" y="36" text-anchor="middle">Payment 1</text>
+    <text class="small" x="130" y="66" text-anchor="middle">Application Form</text>
+    <text class="formula" x="130" y="94" text-anchor="middle">16,800 x 50% = 8,400</text>
+  </g>
+
+  <g transform="translate(750 180)">
+    <rect class="node-amber" width="260" height="120" rx="8"/>
+    <text class="label" x="130" y="36" text-anchor="middle">Acceptance</text>
+    <text class="small" x="130" y="66" text-anchor="middle">验收单</text>
+    <text class="small" x="130" y="94" text-anchor="middle">可追加 Extra Cost</text>
+  </g>
+
+  <g transform="translate(1090 180)">
+    <rect class="node" width="260" height="120" rx="8"/>
+    <text class="label" x="130" y="36" text-anchor="middle">Payment 2</text>
+    <text class="small" x="130" y="66" text-anchor="middle">累计到 90%</text>
+    <text class="formula" x="130" y="94" text-anchor="middle">16,900 x 90% - 8,400 = 6,810</text>
+  </g>
+
+  <path class="arrow" d="M330 240 H402"/>
+  <path class="arrow" d="M670 240 H742"/>
+  <path class="arrow" d="M1010 240 H1082"/>
+
+  <g transform="translate(210 460)">
+    <rect class="node" width="280" height="130" rx="8"/>
+    <text class="label" x="140" y="40" text-anchor="middle">Payment 3</text>
+    <text class="small" x="140" y="70" text-anchor="middle">Final Balance</text>
+    <text class="formula" x="140" y="100" text-anchor="middle">16,900 - 6,810 - 8,400 = 1,690</text>
+  </g>
+
+  <g transform="translate(610 460)">
+    <rect class="node-green" width="280" height="130" rx="8"/>
+    <text class="label" x="140" y="44" text-anchor="middle">Finance Approve</text>
+    <text class="small" x="140" y="78" text-anchor="middle">财务审批</text>
+  </g>
+
+  <g transform="translate(1010 460)">
+    <rect class="node-green" width="250" height="130" rx="8"/>
+    <text class="label" x="125" y="44" text-anchor="middle">Post</text>
+    <text class="small" x="125" y="78" text-anchor="middle">财务过账</text>
+  </g>
+
+  <path class="arrow" d="M1220 300 V380 H350 V452"/>
+  <path class="arrow" d="M490 525 H602"/>
+  <path class="arrow" d="M890 525 H1002"/>
+
+  <g transform="translate(165 660)">
+    <path class="line" d="M0 0 H1170"/>
+    <circle cx="0" cy="0" r="8" fill="#2563eb"/>
+    <circle cx="390" cy="0" r="8" fill="#2563eb"/>
+    <circle cx="780" cy="0" r="8" fill="#2563eb"/>
+    <circle cx="1170" cy="0" r="8" fill="#2563eb"/>
+    <text class="small" x="0" y="38" text-anchor="middle">0%</text>
+    <text class="small" x="390" y="38" text-anchor="middle">50% / 66.6% / 70%</text>
+    <text class="small" x="780" y="38" text-anchor="middle">90%</text>
+    <text class="small" x="1170" y="38" text-anchor="middle">100%</text>
+  </g>
+</svg>
