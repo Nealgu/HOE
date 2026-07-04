@@ -2,8 +2,11 @@
   <title id="title">安装分包结算主业务流程图</title>
   <desc id="desc">从客户销售合同到分包预算、派工申请、成本计算、毛利检查、付款、财务审批和过账的主流程。</desc>
   <defs>
-    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
-      <path d="M2,2 L10,6 L2,10 Z" fill="#2563eb"/>
+    <marker id="arrow" markerWidth="18" markerHeight="16" refX="16" refY="8" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L16,8 L1,15 Z" fill="#1d4ed8"/>
+    </marker>
+    <marker id="arrow-muted" markerWidth="18" markerHeight="16" refX="16" refY="8" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L16,8 L1,15 Z" fill="#64748b"/>
     </marker>
     <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
       <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.12"/>
@@ -22,8 +25,9 @@
       .label { font: 700 19px Arial, "Microsoft YaHei", sans-serif; fill: #1c2430; }
       .small { font: 400 15px Arial, "Microsoft YaHei", sans-serif; fill: #64748b; }
       .tiny { font: 400 13px Arial, "Microsoft YaHei", sans-serif; fill: #64748b; }
-      .arrow { fill: none; stroke: #2563eb; stroke-width: 2.5; marker-end: url(#arrow); }
-      .arrow-muted { fill: none; stroke: #94a3b8; stroke-width: 2; marker-end: url(#arrow); }
+      .arrow { fill: none; stroke: #1d4ed8; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; marker-end: url(#arrow); }
+      .arrow-muted { fill: none; stroke: #64748b; stroke-width: 3.2; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 9 7; marker-end: url(#arrow-muted); }
+      .arrow-label { font: 700 14px Arial, "Microsoft YaHei", sans-serif; fill: #1d4ed8; }
       .note { fill: #ffffff; stroke: #d7dde7; stroke-width: 1.4; }
     </style>
   </defs>
@@ -143,6 +147,8 @@
   <path class="arrow-muted" d="M1270 780 H1130 V842 H1064"/>
   <path class="arrow" d="M780 842 H678"/>
   <path class="arrow" d="M1060 842 H1152"/>
+  <text class="arrow-label" x="710" y="828" text-anchor="middle">Hold</text>
+  <text class="arrow-label" x="1104" y="828" text-anchor="middle">Pass</text>
 
   <g transform="translate(190 960)">
     <rect class="node" width="250" height="100" rx="8"/>
@@ -179,6 +185,7 @@
   <path class="arrow" d="M760 1010 H826"/>
   <path class="arrow" d="M1060 1000 H1142"/>
   <path class="arrow" d="M1400 1010 H1452"/>
+  <text class="arrow-label" x="1102" y="986" text-anchor="middle">Match</text>
 
   <g transform="translate(550 1120)">
     <rect class="node" width="250" height="88" rx="8"/>
