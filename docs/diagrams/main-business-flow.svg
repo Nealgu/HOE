@@ -171,13 +171,13 @@
   <g transform="translate(1150 960)">
     <rect class="node" width="250" height="100" rx="8"/>
     <text class="label" x="125" y="36" text-anchor="middle">Payment 2</text>
-    <text class="small" x="125" y="66" text-anchor="middle">累计到 90%</text>
+    <text class="small" x="125" y="66" text-anchor="middle">累计到 90% 后财务处理</text>
   </g>
 
   <g transform="translate(1460 960)">
     <rect class="node" width="250" height="100" rx="8"/>
     <text class="label" x="125" y="36" text-anchor="middle">Payment 3</text>
-    <text class="small" x="125" y="66" text-anchor="middle">尾款到 100%</text>
+    <text class="small" x="125" y="66" text-anchor="middle">尾款到 100% 后财务处理</text>
   </g>
 
   <path class="arrow-muted" d="M1285 894 V910 H315 V952"/>
@@ -189,14 +189,14 @@
 
   <g transform="translate(550 1120)">
     <rect class="node" width="250" height="88" rx="8"/>
-    <text class="label" x="125" y="34" text-anchor="middle">Finance Approve</text>
-    <text class="small" x="125" y="62" text-anchor="middle">财务审批</text>
+    <text class="label" x="125" y="34" text-anchor="middle">Finance Flow</text>
+    <text class="small" x="125" y="62" text-anchor="middle">每笔 Payment 审批</text>
   </g>
 
   <g transform="translate(890 1120)">
     <rect class="node-green" width="220" height="88" rx="8"/>
-    <text class="label" x="110" y="34" text-anchor="middle">Post</text>
-    <text class="small" x="110" y="62" text-anchor="middle">财务过账</text>
+    <text class="label" x="110" y="34" text-anchor="middle">Post per Payment</text>
+    <text class="small" x="110" y="62" text-anchor="middle">P1/P2/P3 各自过账</text>
   </g>
 
   <g transform="translate(1200 1120)">
