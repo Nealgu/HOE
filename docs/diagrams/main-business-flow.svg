@@ -21,6 +21,7 @@
       .node-green { fill: #edf8f0; stroke: #bbf7d0; stroke-width: 1.5; filter: url(#shadow); }
       .node-amber { fill: #fff7ed; stroke: #fed7aa; stroke-width: 1.5; filter: url(#shadow); }
       .node-red { fill: #fff1f3; stroke: #fecdd3; stroke-width: 1.5; filter: url(#shadow); }
+      .form-frame { fill: #ffffff; stroke: #86c779; stroke-width: 1.5; filter: url(#shadow); }
       .diamond { fill: #ffffff; stroke: #94a3b8; stroke-width: 1.5; filter: url(#shadow); }
       .label { font: 700 19px Arial, "Microsoft YaHei", sans-serif; fill: #1c2430; }
       .small { font: 400 15px Arial, "Microsoft YaHei", sans-serif; fill: #64748b; }
@@ -69,19 +70,19 @@
   </g>
 
   <g transform="translate(1400 150)">
-    <rect class="node" x="45" y="0" width="310" height="104" rx="8"/>
-    <text class="label" x="200" y="42" text-anchor="middle">Application Form</text>
-    <text class="small" x="200" y="72" text-anchor="middle">派工 / 出工申请表</text>
-    <rect class="node-amber" x="85" y="120" width="270" height="116" rx="8"/>
-    <text class="small" x="108" y="160">• Standard Cost / 标准安装费</text>
-    <text class="small" x="108" y="190">• Extra Cost</text>
-    <text class="tiny" x="126" y="214">水电 / 差旅 / 其他</text>
+    <rect class="form-frame" x="0" y="0" width="380" height="240" rx="8"/>
+    <text class="label" x="190" y="48" text-anchor="middle">Application Form</text>
+    <text class="small" x="190" y="78" text-anchor="middle">派工 / 出工申请表</text>
+    <rect class="node-amber" x="52" y="112" width="276" height="92" rx="8"/>
+    <text class="small" x="78" y="148">• Standard Cost / 标准安装费</text>
+    <text class="small" x="78" y="178">• Extra Cost</text>
+    <text class="tiny" x="96" y="198">水电 / 差旅 / 其他</text>
   </g>
 
   <path class="arrow" d="M300 235 H352"/>
   <path class="arrow" d="M590 235 H642"/>
   <path class="arrow" d="M900 235 H972"/>
-  <path class="arrow" d="M1340 235 H1437"/>
+  <path class="arrow" d="M1340 235 H1392"/>
 
   <g transform="translate(1460 470)">
     <rect class="node" width="260" height="120" rx="8"/>
@@ -104,7 +105,7 @@
     <text class="tiny" x="130" y="84" text-anchor="middle">不参与 Margin Check</text>
   </g>
 
-  <path class="arrow-muted" d="M1620 386 V430 H1590 V462"/>
+  <path class="arrow-muted" d="M1590 390 V462"/>
   <path class="arrow" d="M1460 530 H1388"/>
   <path class="arrow" d="M1080 530 H718"/>
 
