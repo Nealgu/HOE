@@ -70,14 +70,12 @@
 
   <g transform="translate(1400 150)">
     <rect class="node" x="45" y="0" width="310" height="104" rx="8"/>
-    <text class="label" x="200" y="36" text-anchor="middle">Application Form</text>
-    <text class="small" x="200" y="64" text-anchor="middle">派工 / 出工申请表</text>
-    <text class="tiny" x="200" y="88" text-anchor="middle">生成成本副产物</text>
+    <text class="label" x="200" y="42" text-anchor="middle">Application Form</text>
+    <text class="small" x="200" y="72" text-anchor="middle">派工 / 出工申请表</text>
     <rect class="node-amber" x="85" y="120" width="270" height="116" rx="8"/>
-    <text class="tiny" x="108" y="148">Cost Outputs</text>
-    <text class="small" x="108" y="178">• Standard Cost / 标准安装费</text>
-    <text class="small" x="108" y="206">• Extra Cost</text>
-    <text class="tiny" x="126" y="228">按 Cost Type 记录</text>
+    <text class="small" x="108" y="160">• Standard Cost / 标准安装费</text>
+    <text class="small" x="108" y="190">• Extra Cost</text>
+    <text class="tiny" x="126" y="214">水电 / 差旅 / 其他</text>
   </g>
 
   <path class="arrow" d="M300 235 H352"/>
@@ -99,12 +97,6 @@
     <text class="tiny" x="150" y="88" text-anchor="middle">整门计价或面积 x 单价</text>
   </g>
 
-  <g transform="translate(780 460)">
-    <polygon class="diamond" points="115,0 230,70 115,140 0,70"/>
-    <text class="label" x="115" y="60" text-anchor="middle">价格判断</text>
-    <text class="small" x="115" y="88" text-anchor="middle">Min / Actual / Max</text>
-  </g>
-
   <g transform="translate(1500 725)">
     <rect class="node-red" width="260" height="100" rx="8"/>
     <text class="label" x="130" y="34" text-anchor="middle">Special Request / SP</text>
@@ -114,9 +106,7 @@
 
   <path class="arrow-muted" d="M1620 386 V430 H1590 V462"/>
   <path class="arrow" d="M1460 530 H1388"/>
-  <path class="arrow" d="M1080 530 H1018"/>
-  <path class="arrow" d="M780 530 H718"/>
-  <path class="arrow-muted" d="M1485 328 H570 V440"/>
+  <path class="arrow" d="M1080 530 H718"/>
 
   <g transform="translate(430 448)">
     <polygon class="diamond" points="140,0 280,82 140,164 0,82"/>
