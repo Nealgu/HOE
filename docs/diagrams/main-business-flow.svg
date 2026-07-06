@@ -23,11 +23,13 @@
       .node-red { fill: #fff1f3; stroke: #fecdd3; stroke-width: 1.5; filter: url(#shadow); }
       .form-frame { fill: #ffffff; stroke: #86c779; stroke-width: 1.5; filter: url(#shadow); }
       .diamond { fill: #ffffff; stroke: #94a3b8; stroke-width: 1.5; filter: url(#shadow); }
+      .diamond-green { fill: #ffffff; stroke: #72b255; stroke-width: 1.5; filter: url(#shadow); }
       .label { font: 700 19px Arial, "Microsoft YaHei", sans-serif; fill: #1c2430; }
       .small { font: 400 15px Arial, "Microsoft YaHei", sans-serif; fill: #64748b; }
       .tiny { font: 400 13px Arial, "Microsoft YaHei", sans-serif; fill: #64748b; }
       .arrow { fill: none; stroke: #1d4ed8; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; marker-end: url(#arrow); }
       .arrow-muted { fill: none; stroke: #64748b; stroke-width: 3.2; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 9 7; marker-end: url(#arrow-muted); }
+      .arrow-dashed { fill: none; stroke: #1d4ed8; stroke-width: 3.2; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 9 7; marker-end: url(#arrow); }
       .arrow-label { font: 700 14px Arial, "Microsoft YaHei", sans-serif; fill: #1d4ed8; }
       .note { fill: #ffffff; stroke: #d7dde7; stroke-width: 1.4; }
     </style>
@@ -107,10 +109,10 @@
 
   <path class="arrow-muted" d="M1590 390 V462"/>
   <path class="arrow" d="M1460 530 H1388"/>
-  <path class="arrow" d="M1080 530 H718"/>
+  <path class="arrow" d="M1080 530 H980 V420 H570 V448"/>
 
   <g transform="translate(430 448)">
-    <polygon class="diamond" points="140,0 280,82 140,164 0,82"/>
+    <polygon class="diamond-green" points="140,0 280,82 140,164 0,82"/>
     <text class="label" x="140" y="70" text-anchor="middle">Margin Check</text>
     <text class="small" x="140" y="98" text-anchor="middle">是否满足 30%</text>
   </g>
@@ -121,16 +123,16 @@
     <text class="small" x="120" y="68" text-anchor="middle">超预算或毛利不足</text>
   </g>
 
-  <g transform="translate(430 790)">
+  <g transform="translate(245 790)">
     <rect class="node-green" width="250" height="104" rx="8"/>
     <text class="label" x="125" y="38" text-anchor="middle">进入付款流程</text>
     <text class="small" x="125" y="68" text-anchor="middle">生成付款申请</text>
   </g>
 
-  <path class="arrow" d="M710 530 H740 V842 H752"/>
-  <path class="arrow" d="M570 612 V782"/>
-  <text class="arrow-label" x="760" y="828" text-anchor="middle">Hold</text>
-  <text class="arrow-label" x="590" y="720" text-anchor="middle">Pass</text>
+  <path class="arrow-dashed" d="M430 530 H370 V790"/>
+  <path class="arrow-dashed" d="M710 530 H880 V790"/>
+  <text class="arrow-label" x="370" y="720" text-anchor="middle">Pass</text>
+  <text class="arrow-label" x="880" y="720" text-anchor="middle">Hold</text>
 
   <g transform="translate(190 960)">
     <rect class="node" width="250" height="100" rx="8"/>
@@ -162,7 +164,7 @@
     <text class="small" x="125" y="66" text-anchor="middle">尾款到 100% 后财务处理</text>
   </g>
 
-  <path class="arrow-muted" d="M555 894 V925 H315 V952"/>
+  <path class="arrow-muted" d="M370 894 V925 H315 V952"/>
   <path class="arrow" d="M440 1010 H502"/>
   <path class="arrow" d="M760 1010 H826"/>
   <path class="arrow" d="M1060 1000 H1142"/>
