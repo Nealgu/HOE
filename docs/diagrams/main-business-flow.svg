@@ -109,9 +109,9 @@
 
   <path class="arrow-muted" d="M1590 390 V462"/>
   <path class="arrow" d="M1460 530 H1388"/>
-  <path class="arrow" d="M1080 530 H980 V420 H570 V448"/>
+  <path class="arrow" d="M1080 530 H980 V420 H625 V448"/>
 
-  <g transform="translate(430 448)">
+  <g transform="translate(485 448)">
     <polygon class="diamond-green" points="140,0 280,82 140,164 0,82"/>
     <text class="label" x="140" y="70" text-anchor="middle">Margin Check</text>
     <text class="small" x="140" y="98" text-anchor="middle">是否满足 30%</text>
@@ -129,18 +129,18 @@
     <text class="small" x="125" y="68" text-anchor="middle">生成付款申请</text>
   </g>
 
-  <path class="arrow-dashed" d="M430 530 H370 V790"/>
-  <path class="arrow-dashed" d="M710 530 H880 V790"/>
+  <path class="arrow-dashed" d="M485 530 H370 V790"/>
+  <path class="arrow-dashed" d="M765 530 H880 V790"/>
   <text class="arrow-label" x="370" y="720" text-anchor="middle">Pass</text>
   <text class="arrow-label" x="880" y="720" text-anchor="middle">Hold</text>
 
-  <g transform="translate(190 960)">
+  <g transform="translate(245 960)">
     <rect class="node" width="250" height="100" rx="8"/>
     <text class="label" x="125" y="36" text-anchor="middle">Payment 1</text>
     <text class="small" x="125" y="66" text-anchor="middle">50% / 66.6% / 70%</text>
   </g>
 
-  <g transform="translate(500 930)">
+  <g transform="translate(560 930)">
     <rect class="form-frame" width="290" height="150" rx="8"/>
     <text class="label" x="145" y="38" text-anchor="middle">Acceptance Form</text>
     <text class="small" x="145" y="66" text-anchor="middle">验收单</text>
@@ -148,30 +148,30 @@
     <text class="small" x="145" y="117" text-anchor="middle">* Extra Cost</text>
   </g>
 
-  <g transform="translate(830 930)">
+  <g transform="translate(900 940)">
     <polygon class="diamond" points="115,0 230,70 115,140 0,70"/>
     <text class="label" x="115" y="58" text-anchor="middle">数量校验</text>
     <text class="small" x="115" y="88" text-anchor="middle">派工 = 验收</text>
   </g>
 
-  <g transform="translate(1150 960)">
+  <g transform="translate(1210 960)">
     <rect class="node" width="250" height="100" rx="8"/>
     <text class="label" x="125" y="36" text-anchor="middle">Payment 2</text>
     <text class="small" x="125" y="66" text-anchor="middle">累计到 90% 后财务处理</text>
   </g>
 
-  <g transform="translate(1460 960)">
+  <g transform="translate(1510 960)">
     <rect class="node" width="250" height="100" rx="8"/>
     <text class="label" x="125" y="36" text-anchor="middle">Payment 3</text>
     <text class="small" x="125" y="66" text-anchor="middle">尾款到 100% 后财务处理</text>
   </g>
 
-  <path class="arrow-muted" d="M370 894 V925 H315 V952"/>
-  <path class="arrow" d="M440 1010 H492"/>
-  <path class="arrow" d="M790 1010 H826"/>
-  <path class="arrow" d="M1060 1000 H1142"/>
-  <path class="arrow" d="M1400 1010 H1452"/>
-  <text class="arrow-label" x="1102" y="986" text-anchor="middle">Match</text>
+  <path class="arrow-muted" d="M370 894 V952"/>
+  <path class="arrow" d="M495 1010 H552"/>
+  <path class="arrow" d="M850 1010 H892"/>
+  <path class="arrow" d="M1130 1010 H1202"/>
+  <path class="arrow" d="M1460 1010 H1502"/>
+  <text class="arrow-label" x="1166" y="996" text-anchor="middle">Match</text>
 
   <g transform="translate(550 1120)">
     <rect class="node" width="250" height="88" rx="8"/>
@@ -191,7 +191,7 @@
     <text class="small" x="150" y="62" text-anchor="middle">CCM / 质保 / 售后</text>
   </g>
 
-  <path class="arrow-muted" d="M1585 1060 V1090 H675 V1112"/>
+  <path class="arrow-muted" d="M1635 1060 V1090 H675 V1112"/>
   <path class="arrow" d="M800 1164 H882"/>
   <path class="arrow" d="M1110 1164 H1192"/>
 
