@@ -69,38 +69,37 @@
   </g>
 
   <g transform="translate(1400 150)">
-    <rect class="node-green" x="0" y="0" width="240" height="96" rx="8"/>
-    <rect class="node-amber" x="86" y="70" width="260" height="154" rx="8"/>
-    <rect class="node" x="60" y="50" width="290" height="112" rx="8"/>
-    <text class="tiny" x="120" y="25" text-anchor="middle">Standard Cost</text>
-    <text class="tiny" x="120" y="47" text-anchor="middle">标准安装费</text>
-    <text class="label" x="205" y="92" text-anchor="middle">Application Form</text>
-    <text class="small" x="205" y="120" text-anchor="middle">派工 / 出工申请表</text>
-    <text class="tiny" x="205" y="145" text-anchor="middle">生成成本副产物</text>
-    <text class="tiny" x="216" y="188" text-anchor="middle">Extra Cost</text>
-    <text class="tiny" x="216" y="210" text-anchor="middle">按 Cost Type 记录</text>
+    <rect class="node" x="45" y="0" width="310" height="104" rx="8"/>
+    <text class="label" x="200" y="36" text-anchor="middle">Application Form</text>
+    <text class="small" x="200" y="64" text-anchor="middle">派工 / 出工申请表</text>
+    <text class="tiny" x="200" y="88" text-anchor="middle">生成成本副产物</text>
+    <rect class="node-amber" x="85" y="120" width="270" height="116" rx="8"/>
+    <text class="tiny" x="108" y="148">Cost Outputs</text>
+    <text class="small" x="108" y="178">• Standard Cost / 标准安装费</text>
+    <text class="small" x="108" y="206">• Extra Cost</text>
+    <text class="tiny" x="126" y="228">按 Cost Type 记录</text>
   </g>
 
   <path class="arrow" d="M300 235 H352"/>
   <path class="arrow" d="M590 235 H642"/>
   <path class="arrow" d="M900 235 H972"/>
-  <path class="arrow" d="M1340 235 H1452"/>
+  <path class="arrow" d="M1340 235 H1437"/>
 
-  <g transform="translate(210 470)">
+  <g transform="translate(1460 470)">
     <rect class="node" width="260" height="120" rx="8"/>
     <text class="label" x="130" y="34" text-anchor="middle">读取 SO 信息</text>
     <text class="small" x="130" y="64" text-anchor="middle">门型 / 数量 / 面积</text>
     <text class="tiny" x="130" y="91" text-anchor="middle">从销售订单和合同带入</text>
   </g>
 
-  <g transform="translate(540 470)">
+  <g transform="translate(1080 470)">
     <rect class="node" width="300" height="120" rx="8"/>
     <text class="label" x="150" y="32" text-anchor="middle">Price List</text>
     <text class="small" x="150" y="60" text-anchor="middle">最低价 / 最高价 / 有效期</text>
     <text class="tiny" x="150" y="88" text-anchor="middle">整门计价或面积 x 单价</text>
   </g>
 
-  <g transform="translate(920 470)">
+  <g transform="translate(780 460)">
     <polygon class="diamond" points="115,0 230,70 115,140 0,70"/>
     <text class="label" x="115" y="60" text-anchor="middle">价格判断</text>
     <text class="small" x="115" y="88" text-anchor="middle">Min / Actual / Max</text>
@@ -113,34 +112,34 @@
     <text class="tiny" x="130" y="84" text-anchor="middle">不参与 Margin Check</text>
   </g>
 
-  <path class="arrow-muted" d="M1545 312 V390 H340 V462"/>
-  <path class="arrow" d="M470 530 H532"/>
-  <path class="arrow" d="M840 530 H916"/>
-  <path class="arrow" d="M1150 540 H1182"/>
-  <path class="arrow-muted" d="M1615 374 V552 H1478"/>
+  <path class="arrow-muted" d="M1620 386 V430 H1590 V462"/>
+  <path class="arrow" d="M1460 530 H1388"/>
+  <path class="arrow" d="M1080 530 H1018"/>
+  <path class="arrow" d="M780 530 H718"/>
+  <path class="arrow-muted" d="M1485 328 H570 V440"/>
 
-  <g transform="translate(1190 470)">
+  <g transform="translate(430 448)">
     <polygon class="diamond" points="140,0 280,82 140,164 0,82"/>
     <text class="label" x="140" y="70" text-anchor="middle">Margin Check</text>
     <text class="small" x="140" y="98" text-anchor="middle">是否满足 30%</text>
   </g>
 
-  <g transform="translate(430 790)">
+  <g transform="translate(760 790)">
     <rect class="node-red" width="240" height="104" rx="8"/>
     <text class="label" x="120" y="38" text-anchor="middle">Hold / 调整</text>
     <text class="small" x="120" y="68" text-anchor="middle">超预算或毛利不足</text>
   </g>
 
-  <g transform="translate(1160 790)">
+  <g transform="translate(430 790)">
     <rect class="node-green" width="250" height="104" rx="8"/>
     <text class="label" x="125" y="38" text-anchor="middle">进入付款流程</text>
     <text class="small" x="125" y="68" text-anchor="middle">生成付款申请</text>
   </g>
 
-  <path class="arrow" d="M1190 552 H1040 V842 H678"/>
-  <path class="arrow" d="M1330 634 V782"/>
-  <text class="arrow-label" x="860" y="828" text-anchor="middle">Hold</text>
-  <text class="arrow-label" x="1350" y="720" text-anchor="middle">Pass</text>
+  <path class="arrow" d="M710 530 H740 V842 H752"/>
+  <path class="arrow" d="M570 612 V782"/>
+  <text class="arrow-label" x="760" y="828" text-anchor="middle">Hold</text>
+  <text class="arrow-label" x="590" y="720" text-anchor="middle">Pass</text>
 
   <g transform="translate(190 960)">
     <rect class="node" width="250" height="100" rx="8"/>
@@ -172,7 +171,7 @@
     <text class="small" x="125" y="66" text-anchor="middle">尾款到 100% 后财务处理</text>
   </g>
 
-  <path class="arrow-muted" d="M1285 894 V910 H315 V952"/>
+  <path class="arrow-muted" d="M555 894 V925 H315 V952"/>
   <path class="arrow" d="M440 1010 H502"/>
   <path class="arrow" d="M760 1010 H826"/>
   <path class="arrow" d="M1060 1000 H1142"/>
