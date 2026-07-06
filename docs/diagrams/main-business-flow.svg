@@ -140,10 +140,12 @@
     <text class="small" x="125" y="66" text-anchor="middle">50% / 66.6% / 70%</text>
   </g>
 
-  <g transform="translate(510 960)">
-    <rect class="node" width="250" height="100" rx="8"/>
-    <text class="label" x="125" y="36" text-anchor="middle">Acceptance Form</text>
-    <text class="small" x="125" y="66" text-anchor="middle">验收单</text>
+  <g transform="translate(500 930)">
+    <rect class="form-frame" width="290" height="150" rx="8"/>
+    <text class="label" x="145" y="38" text-anchor="middle">Acceptance Form</text>
+    <text class="small" x="145" y="66" text-anchor="middle">验收单</text>
+    <rect class="node-amber" x="52" y="90" width="186" height="42" rx="8"/>
+    <text class="small" x="145" y="117" text-anchor="middle">* Extra Cost</text>
   </g>
 
   <g transform="translate(830 930)">
@@ -165,8 +167,8 @@
   </g>
 
   <path class="arrow-muted" d="M370 894 V925 H315 V952"/>
-  <path class="arrow" d="M440 1010 H502"/>
-  <path class="arrow" d="M760 1010 H826"/>
+  <path class="arrow" d="M440 1010 H492"/>
+  <path class="arrow" d="M790 1010 H826"/>
   <path class="arrow" d="M1060 1000 H1142"/>
   <path class="arrow" d="M1400 1010 H1452"/>
   <text class="arrow-label" x="1102" y="986" text-anchor="middle">Match</text>
